@@ -24,7 +24,7 @@ func main() {
 	fmt.Println(allow1, allow2, allow3, allow4)
 }
 ```
-####输出 : 
+#### 输出 : 
 ```
 //设置默认权限为DENY时
 true false false false 
