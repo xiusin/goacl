@@ -21,8 +21,8 @@ type Acl struct {
 
 var empty map[string]bool = map[string]bool{}
 
-func NewAcl() Acl {
-	return Acl{
+func NewAcl() *Acl {
+	return &Acl{
 		_defaultAccess:  DENY,
 		_roles:          []Role{},
 		_rolesName:      empty,
